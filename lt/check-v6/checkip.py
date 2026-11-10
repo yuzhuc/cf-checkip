@@ -31,6 +31,9 @@ TCP_RETRY        = 1
 TCP_PORT         = 443
 MAX_WORKERS      = 250
 
+# checkip.log 最多保留行数；超过则删掉一半（保留最新的 ceil(MAX_LOG_LINES/2) 行）
+MAX_LOG_LINES    = 200
+
 # IPv6 最长 39 字符（8 段 ×4 hex + 7 个 ':'），预留一点
 COL_IP, COL_P, COL_T = 44, 8, 8
 
@@ -176,6 +179,26 @@ def write_report(path, header, items, x, stamp):
         return False
 
 
+def trim_log(path, max_lines):
+    """日志超过 max_lines 行时，只保留最新的 ceil(max_lines/2) 行。"""
+    if max_lines < 1:
+        return
+    try:
+        if not os.path.isfile(path):
+            return
+        with open(path, encoding="utf-8") as f:
+            lines = f.readlines()
+        if len(lines) <= max_lines:
+            return
+        keep = (max_lines + 1) // 2   # 向上取整：3→2，1→1，5→3
+        with open(path, "w", encoding="utf-8") as f:
+            f.writelines(lines[-keep:])
+        print(f"[LOG] {os.path.basename(path)} 超过 {max_lines} 行，"
+              f"已裁剪为最新 {keep} 行")
+    except Exception as e:
+        print(f"[WARN] 裁剪 {path} 失败（不影响结果）: {e}")
+
+
 def get_x():
     if len(sys.argv) < 2:
         return DEFAULT_X
@@ -246,6 +269,7 @@ def main():
     print(f"平台 {platform_name}（IPv6）| 本次 x = {x_value} (0x{x_value:x})")
     print(f"并发 {MAX_WORKERS} | ping {PING_TIMEOUT_MS}ms(重试{PING_RETRY}) "
           f"| tcp {TCP_TIMEOUT}s:{TCP_PORT}(重试{TCP_RETRY})")
+    print(f"日志上限 {MAX_LOG_LINES} 行（超出保留最新 {(MAX_LOG_LINES + 1) // 2} 行）")
 
     start = time.time()
     stamp = time.strftime('%Y-%m-%d %H:%M:%S')
@@ -333,6 +357,9 @@ def main():
                     f"err={err_count}\n")
     except Exception as e:
         print(f"[WARN] 写 {OUT_HISTORY} 失败（不影响结果文件）: {e}")
+
+    # 追加后按上限裁剪日志
+    trim_log(OUT_HISTORY, MAX_LOG_LINES)
 
     print(f"\n总用时 {time.time()-start:.1f}s")
     print(f"能通 {len(results)} | ping 通 {len(ping_list)} | tcping 通 {len(tcp_list)}")

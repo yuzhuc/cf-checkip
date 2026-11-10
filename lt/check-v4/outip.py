@@ -10,7 +10,7 @@ config = {
     'out_file':        os.path.join(BASE_DIR, 'out.txt'),
     'log_file':        os.path.join(BASE_DIR, 'outip.log'),
     'host':            None,          # 从 URL 自动解析
-    'url':             'https://2x.nz',
+    'url':             'https://time.is',
     'retry':           1,             # TCP 探活失败重试次数（=2 次尝试）
     'http_retry':      1,             # curl 返回 000 时额外重试次数
     'tcp_port':        None,          # None = 从 URL 派生；显式设置则独立使用
@@ -33,7 +33,7 @@ SEP = '\x1f'
 try:
     _url_parsed = urlparse(config['url'])
     if not _url_parsed.hostname:
-        raise ValueError("URL 缺少 hostname（例如 https://2x.nz）")
+        raise ValueError("URL 缺少 hostname（例如 https://time.is）")
     _resolve_port = _url_parsed.port or (443 if _url_parsed.scheme == 'https' else 80)
 except ValueError as e:
     print(f"[ERR] URL 解析失败 ({config['url']}): {e}", file=sys.stderr)

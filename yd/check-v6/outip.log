@@ -1,0 +1,4 @@
+# ===== run at 2026-11-10 21:21:58 | x=25 (0x19) (文件头注释) | input=0 | kept=0 =====
+# 字段: <占位符>  real=<真实IP>  tcp=OK/FAIL  latency=<本次TCP握手ms>  http=<状态码/000/skip>  remote=<curl实际连接IP，空表示老curl不返回>  finalURL=<最终URL>
+# http=000: curl 连接失败/超时/TLS 失败（已重试 http_retry 次仍失败）；http=skip: TCP 未通，未做 HTTP
+# nothing to test (after exclude / dedupe)

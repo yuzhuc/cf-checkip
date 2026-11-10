@@ -1,0 +1,44 @@
+# ===== run at 2026-11-10 19:33:40 | x=25 (文件头注释) | input=41 | kept=41 =====
+# 字段: <占位符>  real=<真实IP>  tcp=OK/FAIL  latency=<本次TCP握手ms>  http=<状态码/000/skip>  remote=<curl实际连接IP，空表示老curl不返回>  finalURL=<最终URL>
+# http=000: curl 连接失败/超时/TLS 失败（已重试 http_retry 次仍失败）；http=skip: TCP 未通，未做 HTTP
+104.18.43.x  real=104.18.43.25  tcp=OK  latency=183ms  http=200  remote=104.18.43.25  finalURL=https://2x.nz/
+104.17.217.x  real=104.17.217.25  tcp=OK  latency=191ms  http=200  remote=104.17.217.25  finalURL=https://2x.nz/
+104.17.218.x  real=104.17.218.25  tcp=OK  latency=198ms  http=200  remote=104.17.218.25  finalURL=https://2x.nz/
+104.17.175.x  real=104.17.175.25  tcp=OK  latency=170ms  http=200  remote=104.17.175.25  finalURL=https://2x.nz/
+104.17.176.x  real=104.17.176.25  tcp=OK  latency=202ms  http=200  remote=104.17.176.25  finalURL=https://2x.nz/
+104.17.148.x  real=104.17.148.25  tcp=OK  latency=165ms  http=200  remote=104.17.148.25  finalURL=https://2x.nz/
+104.17.223.x  real=104.17.223.25  tcp=OK  latency=178ms  http=200  remote=104.17.223.25  finalURL=https://2x.nz/
+104.21.90.x  real=104.21.90.25  tcp=OK  latency=105ms  http=200  remote=104.21.90.25  finalURL=https://2x.nz/
+104.21.85.x  real=104.21.85.25  tcp=OK  latency=123ms  http=200  remote=104.21.85.25  finalURL=https://2x.nz/
+104.21.86.x  real=104.21.86.25  tcp=OK  latency=125ms  http=200  remote=104.21.86.25  finalURL=https://2x.nz/
+104.21.94.x  real=104.21.94.25  tcp=OK  latency=125ms  http=200  remote=104.21.94.25  finalURL=https://2x.nz/
+104.21.83.x  real=104.21.83.25  tcp=OK  latency=122ms  http=200  remote=104.21.83.25  finalURL=https://2x.nz/
+104.25.247.x  real=104.25.247.25  tcp=OK  latency=122ms  http=200  remote=104.25.247.25  finalURL=https://2x.nz/
+104.25.244.x  real=104.25.244.25  tcp=OK  latency=126ms  http=200  remote=104.25.244.25  finalURL=https://2x.nz/
+104.21.82.x  real=104.21.82.25  tcp=OK  latency=122ms  http=200  remote=104.21.82.25  finalURL=https://2x.nz/
+104.25.245.x  real=104.25.245.25  tcp=OK  latency=122ms  http=200  remote=104.25.245.25  finalURL=https://2x.nz/
+104.25.249.x  real=104.25.249.25  tcp=OK  latency=116ms  http=200  remote=104.25.249.25  finalURL=https://2x.nz/
+172.65.229.x  real=172.65.229.25  tcp=OK  latency=121ms  http=000  remote=  finalURL=https://2x.nz/
+104.17.155.x  real=104.17.155.25  tcp=OK  latency=159ms  http=200  remote=104.17.155.25  finalURL=https://2x.nz/
+172.66.1.x  real=172.66.1.25  tcp=OK  latency=103ms  http=200  remote=172.66.1.25  finalURL=https://2x.nz/
+172.64.157.x  real=172.64.157.25  tcp=OK  latency=184ms  http=200  remote=172.64.157.25  finalURL=https://2x.nz/
+104.17.26.x  real=104.17.26.25  tcp=OK  latency=111ms  http=200  remote=104.17.26.25  finalURL=https://2x.nz/
+172.66.2.x  real=172.66.2.25  tcp=OK  latency=117ms  http=403  remote=172.66.2.25  finalURL=https://2x.nz/
+104.21.95.x  real=104.21.95.25  tcp=OK  latency=111ms  http=200  remote=104.21.95.25  finalURL=https://2x.nz/
+172.65.230.x  real=172.65.230.25  tcp=OK  latency=115ms  http=000  remote=  finalURL=https://2x.nz/
+104.25.242.x  real=104.25.242.25  tcp=OK  latency=114ms  http=200  remote=104.25.242.25  finalURL=https://2x.nz/
+104.25.255.x  real=104.25.255.25  tcp=OK  latency=114ms  http=200  remote=104.25.255.25  finalURL=https://2x.nz/
+104.25.253.x  real=104.25.253.25  tcp=OK  latency=108ms  http=200  remote=104.25.253.25  finalURL=https://2x.nz/
+104.25.251.x  real=104.25.251.25  tcp=OK  latency=119ms  http=200  remote=104.25.251.25  finalURL=https://2x.nz/
+104.25.250.x  real=104.25.250.25  tcp=OK  latency=113ms  http=200  remote=104.25.250.25  finalURL=https://2x.nz/
+104.25.248.x  real=104.25.248.25  tcp=OK  latency=116ms  http=200  remote=104.25.248.25  finalURL=https://2x.nz/
+172.65.232.x  real=172.65.232.25  tcp=OK  latency=114ms  http=000  remote=  finalURL=https://2x.nz/
+104.16.254.x  real=104.16.254.25  tcp=OK  latency=102ms  http=200  remote=104.16.254.25  finalURL=https://2x.nz/
+104.25.252.x  real=104.25.252.25  tcp=OK  latency=104ms  http=200  remote=104.25.252.25  finalURL=https://2x.nz/
+104.20.62.x  real=104.20.62.25  tcp=OK  latency=206ms  http=200  remote=104.20.62.25  finalURL=https://2x.nz/
+172.65.228.x  real=172.65.228.25  tcp=OK  latency=109ms  http=000  remote=  finalURL=https://2x.nz/
+104.20.55.x  real=104.20.55.25  tcp=OK  latency=232ms  http=200  remote=104.20.55.25  finalURL=https://2x.nz/
+162.159.152.x  real=162.159.152.25  tcp=OK  latency=216ms  http=200  remote=162.159.152.25  finalURL=https://2x.nz/
+104.20.57.x  real=104.20.57.25  tcp=OK  latency=180ms  http=200  remote=104.20.57.25  finalURL=https://2x.nz/
+172.66.0.x  real=172.66.0.25  tcp=OK  latency=113ms  http=200  remote=172.66.0.25  finalURL=https://2x.nz/
+104.20.61.x  real=104.20.61.25  tcp=OK  latency=204ms  http=200  remote=104.20.61.25  finalURL=https://2x.nz/

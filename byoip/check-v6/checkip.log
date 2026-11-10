@@ -1,0 +1,27 @@
+# ===== run at 2026-11-10 21:46:47 | x=25 (0x19) (默认值(未找到注释!)) | input=35 | kept=24 =====
+# 字段: <占位符>  real=<真实IP>  tcp=OK/FAIL  latency=<本次TCP握手ms>  http=<状态码/000/skip>  remote=<curl实际连接IP，空表示老curl不返回>  finalURL=<最终URL>
+# http=000: curl 连接失败/超时/TLS 失败（已重试 http_retry 次仍失败）；http=skip: TCP 未通，未做 HTTP
+2001:df7:6e80::  real=2001:df7:6e80::  tcp=FAIL  latency=-  http=skip
+2400:c760:a::  real=2400:c760:a::  tcp=FAIL  latency=-  http=skip
+2407:30c0:182::  real=2407:30c0:182::  tcp=FAIL  latency=-  http=skip
+2407:30c0:183::  real=2407:30c0:183::  tcp=FAIL  latency=-  http=skip
+2602:80a:6000::  real=2602:80a:6000::  tcp=FAIL  latency=-  http=skip
+2602:80c:cf::  real=2602:80c:cf::  tcp=FAIL  latency=-  http=skip
+2602:f830::  real=2602:f830::  tcp=FAIL  latency=-  http=skip
+2606:2c0:20::  real=2606:2c0:20::  tcp=FAIL  latency=-  http=skip
+2606:2c0:21::  real=2606:2c0:21::  tcp=FAIL  latency=-  http=skip
+2606:2c40::  real=2606:2c40::  tcp=FAIL  latency=-  http=skip
+2606:4700:4f::  real=2606:4700:4f::  tcp=FAIL  latency=-  http=skip
+2606:ae80:10::  real=2606:ae80:10::  tcp=FAIL  latency=-  http=skip
+2a00:1c88:100::  real=2a00:1c88:100::  tcp=FAIL  latency=-  http=skip
+2a05:7880::  real=2a05:7880::  tcp=FAIL  latency=-  http=skip
+2a06:9ac0::  real=2a06:9ac0::  tcp=FAIL  latency=-  http=skip
+2a07:180::  real=2a07:180::  tcp=FAIL  latency=-  http=skip
+2a08:600::  real=2a08:600::  tcp=FAIL  latency=-  http=skip
+2a08:600:e0::  real=2a08:600:e0::  tcp=FAIL  latency=-  http=skip
+2a08:600:ee::  real=2a08:600:ee::  tcp=FAIL  latency=-  http=skip
+2a08:600:ff::  real=2a08:600:ff::  tcp=FAIL  latency=-  http=skip
+2a0f:9400:20::  real=2a0f:9400:20::  tcp=FAIL  latency=-  http=skip
+2a0f:9400:21::  real=2a0f:9400:21::  tcp=FAIL  latency=-  http=skip
+2a0f:9400:22::  real=2a0f:9400:22::  tcp=FAIL  latency=-  http=skip
+2a14:7ac0::  real=2a14:7ac0::  tcp=FAIL  latency=-  http=skip

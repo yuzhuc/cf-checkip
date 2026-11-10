@@ -1,0 +1,483 @@
+# ===== run at 2026-11-10 21:40:50 | x=25 (默认值(未找到注释!)) | input=480 | kept=480 =====
+# 字段: <占位符>  real=<真实IP>  tcp=OK/FAIL  latency=<本次TCP握手ms>  http=<状态码/000/skip>  remote=<curl实际连接IP，空表示老curl不返回>  finalURL=<最终URL>
+# http=000: curl 连接失败/超时/TLS 失败（已重试 http_retry 次仍失败）；http=skip: TCP 未通，未做 HTTP
+5.10.244.x  real=5.10.244.25  tcp=OK  latency=224ms  http=200  remote=5.10.244.25  finalURL=https://2x.nz/
+5.10.245.x  real=5.10.245.25  tcp=OK  latency=233ms  http=200  remote=5.10.245.25  finalURL=https://2x.nz/
+5.10.246.x  real=5.10.246.25  tcp=OK  latency=231ms  http=200  remote=5.10.246.25  finalURL=https://2x.nz/
+5.10.247.x  real=5.10.247.25  tcp=OK  latency=235ms  http=200  remote=5.10.247.25  finalURL=https://2x.nz/
+5.175.141.x  real=5.175.141.25  tcp=OK  latency=1252ms  http=200  remote=5.175.141.25  finalURL=https://2x.nz/
+5.226.179.x  real=5.226.179.25  tcp=OK  latency=239ms  http=403  remote=5.226.179.25  finalURL=https://2x.nz/
+5.226.181.x  real=5.226.181.25  tcp=OK  latency=236ms  http=000  remote=  finalURL=https://2x.nz/
+14.102.228.x  real=14.102.228.25  tcp=OK  latency=236ms  http=200  remote=14.102.228.25  finalURL=https://2x.nz/
+14.102.229.x  real=14.102.229.25  tcp=OK  latency=227ms  http=200  remote=14.102.229.25  finalURL=https://2x.nz/
+23.167.152.x  real=23.167.152.25  tcp=FAIL  latency=-  http=skip
+23.178.112.x  real=23.178.112.25  tcp=FAIL  latency=-  http=skip
+23.247.163.x  real=23.247.163.25  tcp=OK  latency=224ms  http=403  remote=23.247.163.25  finalURL=https://2x.nz/
+25.25.25.x  real=25.25.25.25  tcp=OK  latency=232ms  http=303  remote=25.25.25.25  finalURL=https://2x.nz/
+25.26.27.x  real=25.26.27.25  tcp=OK  latency=222ms  http=000  remote=  finalURL=https://2x.nz/
+25.129.196.x  real=25.129.196.25  tcp=OK  latency=234ms  http=000  remote=  finalURL=https://2x.nz/
+25.129.197.x  real=25.129.197.25  tcp=OK  latency=229ms  http=000  remote=  finalURL=https://2x.nz/
+25.129.198.x  real=25.129.198.25  tcp=OK  latency=1244ms  http=000  remote=  finalURL=https://2x.nz/
+25.129.199.x  real=25.129.199.25  tcp=OK  latency=226ms  http=000  remote=  finalURL=https://2x.nz/
+27.50.48.x  real=27.50.48.25  tcp=OK  latency=234ms  http=200  remote=27.50.48.25  finalURL=https://2x.nz/
+27.50.49.x  real=27.50.49.25  tcp=OK  latency=261ms  http=200  remote=27.50.49.25  finalURL=https://2x.nz/
+31.12.75.x  real=31.12.75.25  tcp=OK  latency=226ms  http=200  remote=31.12.75.25  finalURL=https://2x.nz/
+31.43.179.x  real=31.43.179.25  tcp=OK  latency=1236ms  http=200  remote=31.43.179.25  finalURL=https://2x.nz/
+42.201.8.x  real=42.201.8.25  tcp=FAIL  latency=-  http=skip
+42.201.9.x  real=42.201.9.25  tcp=FAIL  latency=-  http=skip
+42.201.10.x  real=42.201.10.25  tcp=FAIL  latency=-  http=skip
+42.201.11.x  real=42.201.11.25  tcp=FAIL  latency=-  http=skip
+42.201.12.x  real=42.201.12.25  tcp=FAIL  latency=-  http=skip
+42.201.13.x  real=42.201.13.25  tcp=FAIL  latency=-  http=skip
+42.201.14.x  real=42.201.14.25  tcp=FAIL  latency=-  http=skip
+42.201.15.x  real=42.201.15.25  tcp=FAIL  latency=-  http=skip
+42.201.16.x  real=42.201.16.25  tcp=FAIL  latency=-  http=skip
+42.201.17.x  real=42.201.17.25  tcp=FAIL  latency=-  http=skip
+42.201.18.x  real=42.201.18.25  tcp=FAIL  latency=-  http=skip
+42.201.19.x  real=42.201.19.25  tcp=FAIL  latency=-  http=skip
+42.201.20.x  real=42.201.20.25  tcp=FAIL  latency=-  http=skip
+42.201.21.x  real=42.201.21.25  tcp=FAIL  latency=-  http=skip
+42.201.22.x  real=42.201.22.25  tcp=FAIL  latency=-  http=skip
+42.201.23.x  real=42.201.23.25  tcp=FAIL  latency=-  http=skip
+42.201.24.x  real=42.201.24.25  tcp=FAIL  latency=-  http=skip
+42.201.25.x  real=42.201.25.25  tcp=FAIL  latency=-  http=skip
+42.201.26.x  real=42.201.26.25  tcp=FAIL  latency=-  http=skip
+42.201.27.x  real=42.201.27.25  tcp=FAIL  latency=-  http=skip
+42.201.28.x  real=42.201.28.25  tcp=FAIL  latency=-  http=skip
+42.201.29.x  real=42.201.29.25  tcp=FAIL  latency=-  http=skip
+42.201.30.x  real=42.201.30.25  tcp=FAIL  latency=-  http=skip
+42.201.31.x  real=42.201.31.25  tcp=FAIL  latency=-  http=skip
+44.31.142.x  real=44.31.142.25  tcp=FAIL  latency=-  http=skip
+45.12.30.x  real=45.12.30.25  tcp=OK  latency=1232ms  http=200  remote=45.12.30.25  finalURL=https://2x.nz/
+45.12.31.x  real=45.12.31.25  tcp=OK  latency=233ms  http=200  remote=45.12.31.25  finalURL=https://2x.nz/
+45.80.108.x  real=45.80.108.25  tcp=OK  latency=235ms  http=200  remote=45.80.108.25  finalURL=https://2x.nz/
+45.80.109.x  real=45.80.109.25  tcp=FAIL  latency=-  http=skip
+45.80.110.x  real=45.80.110.25  tcp=OK  latency=232ms  http=200  remote=45.80.110.25  finalURL=https://2x.nz/
+45.80.111.x  real=45.80.111.25  tcp=OK  latency=229ms  http=200  remote=45.80.111.25  finalURL=https://2x.nz/
+45.81.58.x  real=45.81.58.25  tcp=OK  latency=234ms  http=200  remote=45.81.58.25  finalURL=https://2x.nz/
+45.85.118.x  real=45.85.118.25  tcp=OK  latency=232ms  http=200  remote=45.85.118.25  finalURL=https://2x.nz/
+45.85.119.x  real=45.85.119.25  tcp=OK  latency=228ms  http=200  remote=45.85.119.25  finalURL=https://2x.nz/
+45.95.241.x  real=45.95.241.25  tcp=OK  latency=231ms  http=403  remote=45.95.241.25  finalURL=https://2x.nz/
+45.128.224.x  real=45.128.224.25  tcp=FAIL  latency=-  http=skip
+45.128.225.x  real=45.128.225.25  tcp=FAIL  latency=-  http=skip
+45.128.226.x  real=45.128.226.25  tcp=FAIL  latency=-  http=skip
+45.128.227.x  real=45.128.227.25  tcp=FAIL  latency=-  http=skip
+45.131.4.x  real=45.131.4.25  tcp=OK  latency=235ms  http=200  remote=45.131.4.25  finalURL=https://2x.nz/
+45.131.5.x  real=45.131.5.25  tcp=OK  latency=220ms  http=200  remote=45.131.5.25  finalURL=https://2x.nz/
+45.131.6.x  real=45.131.6.25  tcp=OK  latency=212ms  http=200  remote=45.131.6.25  finalURL=https://2x.nz/
+45.131.7.x  real=45.131.7.25  tcp=OK  latency=223ms  http=200  remote=45.131.7.25  finalURL=https://2x.nz/
+45.131.208.x  real=45.131.208.25  tcp=OK  latency=252ms  http=200  remote=45.131.208.25  finalURL=https://2x.nz/
+45.131.209.x  real=45.131.209.25  tcp=OK  latency=232ms  http=200  remote=45.131.209.25  finalURL=https://2x.nz/
+45.131.210.x  real=45.131.210.25  tcp=OK  latency=229ms  http=200  remote=45.131.210.25  finalURL=https://2x.nz/
+45.131.211.x  real=45.131.211.25  tcp=OK  latency=205ms  http=200  remote=45.131.211.25  finalURL=https://2x.nz/
+45.135.235.x  real=45.135.235.25  tcp=OK  latency=230ms  http=200  remote=45.135.235.25  finalURL=https://2x.nz/
+45.142.120.x  real=45.142.120.25  tcp=OK  latency=223ms  http=200  remote=45.142.120.25  finalURL=https://2x.nz/
+45.146.201.x  real=45.146.201.25  tcp=FAIL  latency=-  http=skip
+45.149.12.x  real=45.149.12.25  tcp=OK  latency=222ms  http=200  remote=45.149.12.25  finalURL=https://2x.nz/
+45.194.53.x  real=45.194.53.25  tcp=OK  latency=232ms  http=200  remote=45.194.53.25  finalURL=https://2x.nz/
+45.205.0.x  real=45.205.0.25  tcp=FAIL  latency=-  http=skip
+46.202.30.x  real=46.202.30.25  tcp=OK  latency=225ms  http=200  remote=46.202.30.25  finalURL=https://2x.nz/
+62.72.166.x  real=62.72.166.25  tcp=OK  latency=1231ms  http=200  remote=62.72.166.25  finalURL=https://2x.nz/
+62.169.155.x  real=62.169.155.25  tcp=FAIL  latency=-  http=skip
+64.39.233.x  real=64.39.233.25  tcp=FAIL  latency=-  http=skip
+64.39.236.x  real=64.39.236.25  tcp=FAIL  latency=-  http=skip
+64.69.24.x  real=64.69.24.25  tcp=OK  latency=234ms  http=403  remote=64.69.24.25  finalURL=https://2x.nz/
+64.69.25.x  real=64.69.25.25  tcp=OK  latency=229ms  http=000  remote=  finalURL=https://2x.nz/
+64.112.117.x  real=64.112.117.25  tcp=FAIL  latency=-  http=skip
+65.205.150.x  real=65.205.150.25  tcp=FAIL  latency=-  http=skip
+66.45.118.x  real=66.45.118.25  tcp=OK  latency=235ms  http=200  remote=66.45.118.25  finalURL=https://2x.nz/
+66.81.247.x  real=66.81.247.25  tcp=OK  latency=213ms  http=200  remote=66.81.247.25  finalURL=https://2x.nz/
+66.81.255.x  real=66.81.255.25  tcp=OK  latency=218ms  http=000  remote=  finalURL=https://2x.nz/
+66.94.32.x  real=66.94.32.25  tcp=FAIL  latency=-  http=skip
+66.94.33.x  real=66.94.33.25  tcp=FAIL  latency=-  http=skip
+66.94.34.x  real=66.94.34.25  tcp=FAIL  latency=-  http=skip
+66.94.35.x  real=66.94.35.25  tcp=FAIL  latency=-  http=skip
+66.94.36.x  real=66.94.36.25  tcp=FAIL  latency=-  http=skip
+66.94.37.x  real=66.94.37.25  tcp=FAIL  latency=-  http=skip
+66.94.38.x  real=66.94.38.25  tcp=FAIL  latency=-  http=skip
+66.94.39.x  real=66.94.39.25  tcp=FAIL  latency=-  http=skip
+66.94.40.x  real=66.94.40.25  tcp=FAIL  latency=-  http=skip
+66.94.41.x  real=66.94.41.25  tcp=FAIL  latency=-  http=skip
+66.94.42.x  real=66.94.42.25  tcp=FAIL  latency=-  http=skip
+66.94.43.x  real=66.94.43.25  tcp=FAIL  latency=-  http=skip
+66.94.44.x  real=66.94.44.25  tcp=FAIL  latency=-  http=skip
+66.94.45.x  real=66.94.45.25  tcp=FAIL  latency=-  http=skip
+66.94.46.x  real=66.94.46.25  tcp=FAIL  latency=-  http=skip
+66.94.47.x  real=66.94.47.25  tcp=FAIL  latency=-  http=skip
+66.225.252.x  real=66.225.252.25  tcp=OK  latency=224ms  http=200  remote=66.225.252.25  finalURL=https://2x.nz/
+68.169.48.x  real=68.169.48.25  tcp=FAIL  latency=-  http=skip
+68.169.49.x  real=68.169.49.25  tcp=OK  latency=286ms  http=000  remote=  finalURL=https://2x.nz/
+68.169.50.x  real=68.169.50.25  tcp=FAIL  latency=-  http=skip
+68.169.51.x  real=68.169.51.25  tcp=FAIL  latency=-  http=skip
+68.169.52.x  real=68.169.52.25  tcp=FAIL  latency=-  http=skip
+68.169.53.x  real=68.169.53.25  tcp=FAIL  latency=-  http=skip
+68.169.54.x  real=68.169.54.25  tcp=FAIL  latency=-  http=skip
+68.169.55.x  real=68.169.55.25  tcp=FAIL  latency=-  http=skip
+68.169.56.x  real=68.169.56.25  tcp=OK  latency=290ms  http=000  remote=  finalURL=https://2x.nz/
+68.169.57.x  real=68.169.57.25  tcp=FAIL  latency=-  http=skip
+68.169.58.x  real=68.169.58.25  tcp=FAIL  latency=-  http=skip
+68.169.59.x  real=68.169.59.25  tcp=FAIL  latency=-  http=skip
+68.169.60.x  real=68.169.60.25  tcp=FAIL  latency=-  http=skip
+68.169.61.x  real=68.169.61.25  tcp=FAIL  latency=-  http=skip
+68.169.62.x  real=68.169.62.25  tcp=FAIL  latency=-  http=skip
+68.169.63.x  real=68.169.63.25  tcp=OK  latency=295ms  http=301  remote=68.169.63.25  finalURL=https://2x.nz/
+69.48.218.x  real=69.48.218.25  tcp=OK  latency=237ms  http=403  remote=69.48.218.25  finalURL=https://2x.nz/
+69.89.0.x  real=69.89.0.25  tcp=FAIL  latency=-  http=skip
+69.89.1.x  real=69.89.1.25  tcp=FAIL  latency=-  http=skip
+69.89.2.x  real=69.89.2.25  tcp=FAIL  latency=-  http=skip
+69.89.3.x  real=69.89.3.25  tcp=FAIL  latency=-  http=skip
+69.89.4.x  real=69.89.4.25  tcp=FAIL  latency=-  http=skip
+69.89.5.x  real=69.89.5.25  tcp=FAIL  latency=-  http=skip
+69.89.6.x  real=69.89.6.25  tcp=FAIL  latency=-  http=skip
+69.89.7.x  real=69.89.7.25  tcp=FAIL  latency=-  http=skip
+69.89.8.x  real=69.89.8.25  tcp=FAIL  latency=-  http=skip
+69.89.9.x  real=69.89.9.25  tcp=FAIL  latency=-  http=skip
+69.89.10.x  real=69.89.10.25  tcp=FAIL  latency=-  http=skip
+69.89.11.x  real=69.89.11.25  tcp=FAIL  latency=-  http=skip
+69.89.12.x  real=69.89.12.25  tcp=FAIL  latency=-  http=skip
+69.89.13.x  real=69.89.13.25  tcp=FAIL  latency=-  http=skip
+69.89.14.x  real=69.89.14.25  tcp=FAIL  latency=-  http=skip
+69.89.15.x  real=69.89.15.25  tcp=FAIL  latency=-  http=skip
+72.52.113.x  real=72.52.113.25  tcp=FAIL  latency=-  http=skip
+74.49.214.x  real=74.49.214.25  tcp=OK  latency=237ms  http=200  remote=74.49.214.25  finalURL=https://2x.nz/
+74.49.215.x  real=74.49.215.25  tcp=OK  latency=232ms  http=200  remote=74.49.215.25  finalURL=https://2x.nz/
+74.204.59.x  real=74.204.59.25  tcp=FAIL  latency=-  http=skip
+74.205.180.x  real=74.205.180.25  tcp=FAIL  latency=-  http=skip
+77.37.33.x  real=77.37.33.25  tcp=OK  latency=234ms  http=200  remote=77.37.33.25  finalURL=https://2x.nz/
+77.74.228.x  real=77.74.228.25  tcp=OK  latency=1231ms  http=200  remote=77.74.228.25  finalURL=https://2x.nz/
+77.75.199.x  real=77.75.199.25  tcp=OK  latency=241ms  http=200  remote=77.75.199.25  finalURL=https://2x.nz/
+77.81.50.x  real=77.81.50.25  tcp=FAIL  latency=-  http=skip
+77.81.51.x  real=77.81.51.25  tcp=FAIL  latency=-  http=skip
+77.232.140.x  real=77.232.140.25  tcp=OK  latency=221ms  http=200  remote=77.232.140.25  finalURL=https://2x.nz/
+77.232.141.x  real=77.232.141.25  tcp=FAIL  latency=-  http=skip
+80.83.188.x  real=80.83.188.25  tcp=FAIL  latency=-  http=skip
+80.83.189.x  real=80.83.189.25  tcp=FAIL  latency=-  http=skip
+80.83.190.x  real=80.83.190.25  tcp=FAIL  latency=-  http=skip
+80.83.191.x  real=80.83.191.25  tcp=FAIL  latency=-  http=skip
+80.93.202.x  real=80.93.202.25  tcp=OK  latency=1245ms  http=200  remote=80.93.202.25  finalURL=https://2x.nz/
+83.118.224.x  real=83.118.224.25  tcp=FAIL  latency=-  http=skip
+83.118.225.x  real=83.118.225.25  tcp=FAIL  latency=-  http=skip
+83.118.226.x  real=83.118.226.25  tcp=FAIL  latency=-  http=skip
+83.118.227.x  real=83.118.227.25  tcp=FAIL  latency=-  http=skip
+85.237.216.x  real=85.237.216.25  tcp=OK  latency=250ms  http=200  remote=85.237.216.25  finalURL=https://2x.nz/
+86.38.214.x  real=86.38.214.25  tcp=OK  latency=199ms  http=200  remote=86.38.214.25  finalURL=https://2x.nz/
+88.211.200.x  real=88.211.200.25  tcp=FAIL  latency=-  http=skip
+88.211.201.x  real=88.211.201.25  tcp=FAIL  latency=-  http=skip
+88.211.202.x  real=88.211.202.25  tcp=FAIL  latency=-  http=skip
+88.211.203.x  real=88.211.203.25  tcp=FAIL  latency=-  http=skip
+88.216.66.x  real=88.216.66.25  tcp=OK  latency=224ms  http=200  remote=88.216.66.25  finalURL=https://2x.nz/
+88.216.67.x  real=88.216.67.25  tcp=OK  latency=221ms  http=200  remote=88.216.67.25  finalURL=https://2x.nz/
+89.40.171.x  real=89.40.171.25  tcp=FAIL  latency=-  http=skip
+89.47.56.x  real=89.47.56.25  tcp=OK  latency=223ms  http=403  remote=89.47.56.25  finalURL=https://2x.nz/
+89.47.57.x  real=89.47.57.25  tcp=OK  latency=235ms  http=403  remote=89.47.57.25  finalURL=https://2x.nz/
+89.116.46.x  real=89.116.46.25  tcp=OK  latency=229ms  http=200  remote=89.116.46.25  finalURL=https://2x.nz/
+89.116.47.x  real=89.116.47.25  tcp=FAIL  latency=-  http=skip
+89.116.161.x  real=89.116.161.25  tcp=OK  latency=241ms  http=200  remote=89.116.161.25  finalURL=https://2x.nz/
+89.116.180.x  real=89.116.180.25  tcp=OK  latency=223ms  http=200  remote=89.116.180.25  finalURL=https://2x.nz/
+89.116.250.x  real=89.116.250.25  tcp=OK  latency=223ms  http=200  remote=89.116.250.25  finalURL=https://2x.nz/
+89.117.112.x  real=89.117.112.25  tcp=OK  latency=231ms  http=200  remote=89.117.112.25  finalURL=https://2x.nz/
+89.207.18.x  real=89.207.18.25  tcp=OK  latency=251ms  http=000  remote=  finalURL=https://2x.nz/
+91.193.58.x  real=91.193.58.25  tcp=FAIL  latency=-  http=skip
+91.193.59.x  real=91.193.59.25  tcp=FAIL  latency=-  http=skip
+91.199.81.x  real=91.199.81.25  tcp=OK  latency=233ms  http=000  remote=  finalURL=https://2x.nz/
+91.209.253.x  real=91.209.253.25  tcp=OK  latency=232ms  http=200  remote=91.209.253.25  finalURL=https://2x.nz/
+92.53.188.x  real=92.53.188.25  tcp=OK  latency=222ms  http=200  remote=92.53.188.25  finalURL=https://2x.nz/
+92.53.189.x  real=92.53.189.25  tcp=OK  latency=229ms  http=200  remote=92.53.189.25  finalURL=https://2x.nz/
+92.53.190.x  real=92.53.190.25  tcp=OK  latency=248ms  http=200  remote=92.53.190.25  finalURL=https://2x.nz/
+92.53.191.x  real=92.53.191.25  tcp=OK  latency=242ms  http=200  remote=92.53.191.25  finalURL=https://2x.nz/
+92.60.74.x  real=92.60.74.25  tcp=FAIL  latency=-  http=skip
+93.113.129.x  real=93.113.129.25  tcp=FAIL  latency=-  http=skip
+93.114.64.x  real=93.114.64.25  tcp=OK  latency=220ms  http=403  remote=93.114.64.25  finalURL=https://2x.nz/
+93.114.65.x  real=93.114.65.25  tcp=OK  latency=1245ms  http=403  remote=93.114.65.25  finalURL=https://2x.nz/
+93.114.182.x  real=93.114.182.25  tcp=FAIL  latency=-  http=skip
+93.115.102.x  real=93.115.102.25  tcp=OK  latency=235ms  http=000  remote=  finalURL=https://2x.nz/
+93.152.234.x  real=93.152.234.25  tcp=FAIL  latency=-  http=skip
+94.140.0.x  real=94.140.0.25  tcp=OK  latency=1231ms  http=200  remote=94.140.0.25  finalURL=https://2x.nz/
+94.242.228.x  real=94.242.228.25  tcp=FAIL  latency=-  http=skip
+94.242.229.x  real=94.242.229.25  tcp=FAIL  latency=-  http=skip
+94.242.230.x  real=94.242.230.25  tcp=FAIL  latency=-  http=skip
+94.242.231.x  real=94.242.231.25  tcp=FAIL  latency=-  http=skip
+94.247.142.x  real=94.247.142.25  tcp=OK  latency=227ms  http=200  remote=94.247.142.25  finalURL=https://2x.nz/
+102.177.176.x  real=102.177.176.25  tcp=FAIL  latency=-  http=skip
+102.177.189.x  real=102.177.189.25  tcp=OK  latency=224ms  http=200  remote=102.177.189.25  finalURL=https://2x.nz/
+103.11.212.x  real=103.11.212.25  tcp=OK  latency=222ms  http=403  remote=103.11.212.25  finalURL=https://2x.nz/
+103.11.214.x  real=103.11.214.25  tcp=OK  latency=229ms  http=403  remote=103.11.214.25  finalURL=https://2x.nz/
+103.15.85.x  real=103.15.85.25  tcp=OK  latency=269ms  http=403  remote=103.15.85.25  finalURL=https://2x.nz/
+103.19.144.x  real=103.19.144.25  tcp=FAIL  latency=-  http=skip
+103.19.145.x  real=103.19.145.25  tcp=FAIL  latency=-  http=skip
+103.112.176.x  real=103.112.176.25  tcp=FAIL  latency=-  http=skip
+103.116.7.x  real=103.116.7.25  tcp=OK  latency=247ms  http=200  remote=103.116.7.25  finalURL=https://2x.nz/
+103.121.59.x  real=103.121.59.25  tcp=FAIL  latency=-  http=skip
+103.133.1.x  real=103.133.1.25  tcp=OK  latency=236ms  http=200  remote=103.133.1.25  finalURL=https://2x.nz/
+103.169.142.x  real=103.169.142.25  tcp=OK  latency=224ms  http=200  remote=103.169.142.25  finalURL=https://2x.nz/
+103.172.110.x  real=103.172.110.25  tcp=OK  latency=75ms  http=000  remote=  finalURL=https://2x.nz/
+103.172.111.x  real=103.172.111.25  tcp=OK  latency=229ms  http=403  remote=103.172.111.25  finalURL=https://2x.nz/
+103.219.64.x  real=103.219.64.25  tcp=FAIL  latency=-  http=skip
+103.219.65.x  real=103.219.65.25  tcp=FAIL  latency=-  http=skip
+103.219.66.x  real=103.219.66.25  tcp=FAIL  latency=-  http=skip
+103.219.67.x  real=103.219.67.25  tcp=FAIL  latency=-  http=skip
+103.244.119.x  real=103.244.119.25  tcp=FAIL  latency=-  http=skip
+104.36.195.x  real=104.36.195.25  tcp=OK  latency=230ms  http=403  remote=104.36.195.25  finalURL=https://2x.nz/
+104.129.164.x  real=104.129.164.25  tcp=OK  latency=237ms  http=200  remote=104.129.164.25  finalURL=https://2x.nz/
+104.129.165.x  real=104.129.165.25  tcp=OK  latency=1236ms  http=200  remote=104.129.165.25  finalURL=https://2x.nz/
+104.129.166.x  real=104.129.166.25  tcp=OK  latency=220ms  http=200  remote=104.129.166.25  finalURL=https://2x.nz/
+104.129.167.x  real=104.129.167.25  tcp=OK  latency=228ms  http=200  remote=104.129.167.25  finalURL=https://2x.nz/
+104.164.10.x  real=104.164.10.25  tcp=FAIL  latency=-  http=skip
+104.165.65.x  real=104.165.65.25  tcp=FAIL  latency=-  http=skip
+104.234.239.x  real=104.234.239.25  tcp=OK  latency=1238ms  http=200  remote=104.234.239.25  finalURL=https://2x.nz/
+104.239.72.x  real=104.239.72.25  tcp=OK  latency=235ms  http=200  remote=104.239.72.25  finalURL=https://2x.nz/
+104.254.140.x  real=104.254.140.25  tcp=OK  latency=231ms  http=200  remote=104.254.140.25  finalURL=https://2x.nz/
+108.165.152.x  real=108.165.152.25  tcp=OK  latency=239ms  http=200  remote=108.165.152.25  finalURL=https://2x.nz/
+108.165.216.x  real=108.165.216.25  tcp=OK  latency=228ms  http=200  remote=108.165.216.25  finalURL=https://2x.nz/
+109.61.104.x  real=109.61.104.25  tcp=FAIL  latency=-  http=skip
+109.61.105.x  real=109.61.105.25  tcp=FAIL  latency=-  http=skip
+109.61.106.x  real=109.61.106.25  tcp=FAIL  latency=-  http=skip
+109.61.107.x  real=109.61.107.25  tcp=FAIL  latency=-  http=skip
+109.120.143.x  real=109.120.143.25  tcp=FAIL  latency=-  http=skip
+114.129.43.x  real=114.129.43.25  tcp=OK  latency=243ms  http=200  remote=114.129.43.25  finalURL=https://2x.nz/
+130.108.73.x  real=130.108.73.25  tcp=FAIL  latency=-  http=skip
+130.108.104.x  real=130.108.104.25  tcp=FAIL  latency=-  http=skip
+130.108.105.x  real=130.108.105.25  tcp=FAIL  latency=-  http=skip
+130.108.121.x  real=130.108.121.25  tcp=FAIL  latency=-  http=skip
+130.108.253.x  real=130.108.253.25  tcp=FAIL  latency=-  http=skip
+136.143.138.x  real=136.143.138.25  tcp=FAIL  latency=-  http=skip
+138.5.248.x  real=138.5.248.25  tcp=FAIL  latency=-  http=skip
+139.64.234.x  real=139.64.234.25  tcp=OK  latency=223ms  http=000  remote=  finalURL=https://2x.nz/
+139.64.235.x  real=139.64.235.25  tcp=OK  latency=225ms  http=200  remote=139.64.235.25  finalURL=https://2x.nz/
+141.11.202.x  real=141.11.202.25  tcp=OK  latency=229ms  http=200  remote=141.11.202.25  finalURL=https://2x.nz/
+141.11.203.x  real=141.11.203.25  tcp=OK  latency=223ms  http=200  remote=141.11.203.25  finalURL=https://2x.nz/
+141.193.213.x  real=141.193.213.25  tcp=OK  latency=184ms  http=200  remote=141.193.213.25  finalURL=https://2x.nz/
+144.124.210.x  real=144.124.210.25  tcp=FAIL  latency=-  http=skip
+144.124.213.x  real=144.124.213.25  tcp=FAIL  latency=-  http=skip
+147.78.140.x  real=147.78.140.25  tcp=OK  latency=1252ms  http=200  remote=147.78.140.25  finalURL=https://2x.nz/
+147.185.161.x  real=147.185.161.25  tcp=OK  latency=232ms  http=200  remote=147.185.161.25  finalURL=https://2x.nz/
+154.51.129.x  real=154.51.129.25  tcp=FAIL  latency=-  http=skip
+154.51.160.x  real=154.51.160.25  tcp=FAIL  latency=-  http=skip
+154.62.129.x  real=154.62.129.25  tcp=FAIL  latency=-  http=skip
+154.83.2.x  real=154.83.2.25  tcp=OK  latency=227ms  http=200  remote=154.83.2.25  finalURL=https://2x.nz/
+154.83.22.x  real=154.83.22.25  tcp=FAIL  latency=-  http=skip
+154.83.23.x  real=154.83.23.25  tcp=FAIL  latency=-  http=skip
+154.83.30.x  real=154.83.30.25  tcp=FAIL  latency=-  http=skip
+154.83.31.x  real=154.83.31.25  tcp=FAIL  latency=-  http=skip
+154.84.14.x  real=154.84.14.25  tcp=FAIL  latency=-  http=skip
+154.84.15.x  real=154.84.15.25  tcp=FAIL  latency=-  http=skip
+154.84.16.x  real=154.84.16.25  tcp=FAIL  latency=-  http=skip
+154.84.17.x  real=154.84.17.25  tcp=FAIL  latency=-  http=skip
+154.84.18.x  real=154.84.18.25  tcp=FAIL  latency=-  http=skip
+154.84.19.x  real=154.84.19.25  tcp=FAIL  latency=-  http=skip
+154.84.20.x  real=154.84.20.25  tcp=FAIL  latency=-  http=skip
+154.84.21.x  real=154.84.21.25  tcp=FAIL  latency=-  http=skip
+154.84.22.x  real=154.84.22.25  tcp=FAIL  latency=-  http=skip
+154.84.23.x  real=154.84.23.25  tcp=FAIL  latency=-  http=skip
+154.92.9.x  real=154.92.9.25  tcp=OK  latency=228ms  http=200  remote=154.92.9.25  finalURL=https://2x.nz/
+154.194.12.x  real=154.194.12.25  tcp=OK  latency=226ms  http=200  remote=154.194.12.25  finalURL=https://2x.nz/
+154.197.64.x  real=154.197.64.25  tcp=OK  latency=1242ms  http=200  remote=154.197.64.25  finalURL=https://2x.nz/
+154.197.65.x  real=154.197.65.25  tcp=OK  latency=235ms  http=200  remote=154.197.65.25  finalURL=https://2x.nz/
+154.197.75.x  real=154.197.75.25  tcp=OK  latency=225ms  http=200  remote=154.197.75.25  finalURL=https://2x.nz/
+154.198.173.x  real=154.198.173.25  tcp=OK  latency=228ms  http=200  remote=154.198.173.25  finalURL=https://2x.nz/
+154.202.89.x  real=154.202.89.25  tcp=OK  latency=253ms  http=403  remote=154.202.89.25  finalURL=https://2x.nz/
+154.206.12.x  real=154.206.12.25  tcp=OK  latency=222ms  http=200  remote=154.206.12.25  finalURL=https://2x.nz/
+154.211.8.x  real=154.211.8.25  tcp=OK  latency=236ms  http=200  remote=154.211.8.25  finalURL=https://2x.nz/
+154.218.15.x  real=154.218.15.25  tcp=OK  latency=232ms  http=200  remote=154.218.15.25  finalURL=https://2x.nz/
+155.46.167.x  real=155.46.167.25  tcp=OK  latency=240ms  http=200  remote=155.46.167.25  finalURL=https://2x.nz/
+155.46.213.x  real=155.46.213.25  tcp=OK  latency=229ms  http=200  remote=155.46.213.25  finalURL=https://2x.nz/
+156.243.246.x  real=156.243.246.25  tcp=OK  latency=230ms  http=200  remote=156.243.246.25  finalURL=https://2x.nz/
+156.252.2.x  real=156.252.2.25  tcp=OK  latency=220ms  http=403  remote=156.252.2.25  finalURL=https://2x.nz/
+156.252.3.x  real=156.252.3.25  tcp=OK  latency=233ms  http=403  remote=156.252.3.25  finalURL=https://2x.nz/
+159.112.235.x  real=159.112.235.25  tcp=OK  latency=242ms  http=200  remote=159.112.235.25  finalURL=https://2x.nz/
+159.246.55.x  real=159.246.55.25  tcp=OK  latency=1236ms  http=200  remote=159.246.55.25  finalURL=https://2x.nz/
+160.153.0.x  real=160.153.0.25  tcp=OK  latency=221ms  http=403  remote=160.153.0.25  finalURL=https://2x.nz/
+160.153.1.x  real=160.153.1.25  tcp=OK  latency=237ms  http=403  remote=160.153.1.25  finalURL=https://2x.nz/
+160.153.2.x  real=160.153.2.25  tcp=FAIL  latency=-  http=skip
+160.153.3.x  real=160.153.3.25  tcp=FAIL  latency=-  http=skip
+162.44.32.x  real=162.44.32.25  tcp=FAIL  latency=-  http=skip
+162.44.33.x  real=162.44.33.25  tcp=FAIL  latency=-  http=skip
+162.44.34.x  real=162.44.34.25  tcp=OK  latency=303ms  http=000  remote=  finalURL=https://2x.nz/
+162.44.35.x  real=162.44.35.25  tcp=FAIL  latency=-  http=skip
+162.44.118.x  real=162.44.118.25  tcp=OK  latency=316ms  http=200  remote=162.44.118.25  finalURL=https://2x.nz/
+162.44.119.x  real=162.44.119.25  tcp=OK  latency=1327ms  http=404  remote=162.44.119.25  finalURL=https://2x.nz/
+162.44.208.x  real=162.44.208.25  tcp=OK  latency=300ms  http=200  remote=162.44.208.25  finalURL=https://2x.nz/
+162.44.209.x  real=162.44.209.25  tcp=OK  latency=301ms  http=000  remote=162.44.209.25  finalURL=https://2x.nz/
+162.120.94.x  real=162.120.94.25  tcp=OK  latency=1252ms  http=200  remote=162.120.94.25  finalURL=https://2x.nz/
+162.159.225.x  real=162.159.225.25  tcp=FAIL  latency=-  http=skip
+164.38.155.x  real=164.38.155.25  tcp=OK  latency=223ms  http=200  remote=164.38.155.25  finalURL=https://2x.nz/
+167.1.148.x  real=167.1.148.25  tcp=FAIL  latency=-  http=skip
+167.1.149.x  real=167.1.149.25  tcp=FAIL  latency=-  http=skip
+167.1.150.x  real=167.1.150.25  tcp=FAIL  latency=-  http=skip
+167.1.181.x  real=167.1.181.25  tcp=FAIL  latency=-  http=skip
+167.68.4.x  real=167.68.4.25  tcp=OK  latency=232ms  http=200  remote=167.68.4.25  finalURL=https://2x.nz/
+167.68.5.x  real=167.68.5.25  tcp=OK  latency=229ms  http=200  remote=167.68.5.25  finalURL=https://2x.nz/
+167.68.11.x  real=167.68.11.25  tcp=OK  latency=230ms  http=200  remote=167.68.11.25  finalURL=https://2x.nz/
+167.68.42.x  real=167.68.42.25  tcp=OK  latency=238ms  http=200  remote=167.68.42.25  finalURL=https://2x.nz/
+170.114.45.x  real=170.114.45.25  tcp=OK  latency=218ms  http=200  remote=170.114.45.25  finalURL=https://2x.nz/
+170.114.46.x  real=170.114.46.25  tcp=OK  latency=222ms  http=200  remote=170.114.46.25  finalURL=https://2x.nz/
+170.114.52.x  real=170.114.52.25  tcp=OK  latency=268ms  http=403  remote=170.114.52.25  finalURL=https://2x.nz/
+170.114.78.x  real=170.114.78.25  tcp=OK  latency=224ms  http=403  remote=170.114.78.25  finalURL=https://2x.nz/
+170.176.152.x  real=170.176.152.25  tcp=OK  latency=218ms  http=404  remote=170.176.152.25  finalURL=https://2x.nz/
+172.83.72.x  real=172.83.72.25  tcp=OK  latency=229ms  http=403  remote=172.83.72.25  finalURL=https://2x.nz/
+172.83.73.x  real=172.83.73.25  tcp=OK  latency=227ms  http=403  remote=172.83.73.25  finalURL=https://2x.nz/
+172.83.76.x  real=172.83.76.25  tcp=OK  latency=229ms  http=000  remote=  finalURL=https://2x.nz/
+176.126.206.x  real=176.126.206.25  tcp=OK  latency=230ms  http=403  remote=176.126.206.25  finalURL=https://2x.nz/
+176.126.207.x  real=176.126.207.25  tcp=OK  latency=230ms  http=403  remote=176.126.207.25  finalURL=https://2x.nz/
+178.211.142.x  real=178.211.142.25  tcp=FAIL  latency=-  http=skip
+178.213.76.x  real=178.213.76.25  tcp=FAIL  latency=-  http=skip
+181.214.1.x  real=181.214.1.25  tcp=OK  latency=225ms  http=200  remote=181.214.1.25  finalURL=https://2x.nz/
+185.7.190.x  real=185.7.190.25  tcp=FAIL  latency=-  http=skip
+185.7.191.x  real=185.7.191.25  tcp=FAIL  latency=-  http=skip
+185.18.250.x  real=185.18.250.25  tcp=OK  latency=225ms  http=200  remote=185.18.250.25  finalURL=https://2x.nz/
+185.38.135.x  real=185.38.135.25  tcp=OK  latency=227ms  http=403  remote=185.38.135.25  finalURL=https://2x.nz/
+185.59.218.x  real=185.59.218.25  tcp=FAIL  latency=-  http=skip
+185.84.67.x  real=185.84.67.25  tcp=FAIL  latency=-  http=skip
+185.124.66.x  real=185.124.66.25  tcp=FAIL  latency=-  http=skip
+185.135.9.x  real=185.135.9.25  tcp=OK  latency=238ms  http=200  remote=185.135.9.25  finalURL=https://2x.nz/
+185.148.104.x  real=185.148.104.25  tcp=OK  latency=233ms  http=200  remote=185.148.104.25  finalURL=https://2x.nz/
+185.148.105.x  real=185.148.105.25  tcp=OK  latency=218ms  http=200  remote=185.148.105.25  finalURL=https://2x.nz/
+185.148.106.x  real=185.148.106.25  tcp=OK  latency=223ms  http=200  remote=185.148.106.25  finalURL=https://2x.nz/
+185.148.107.x  real=185.148.107.25  tcp=OK  latency=221ms  http=200  remote=185.148.107.25  finalURL=https://2x.nz/
+185.159.247.x  real=185.159.247.25  tcp=OK  latency=214ms  http=200  remote=185.159.247.25  finalURL=https://2x.nz/
+185.162.228.x  real=185.162.228.25  tcp=OK  latency=1225ms  http=200  remote=185.162.228.25  finalURL=https://2x.nz/
+185.162.229.x  real=185.162.229.25  tcp=OK  latency=227ms  http=200  remote=185.162.229.25  finalURL=https://2x.nz/
+185.162.230.x  real=185.162.230.25  tcp=OK  latency=226ms  http=200  remote=185.162.230.25  finalURL=https://2x.nz/
+185.162.231.x  real=185.162.231.25  tcp=OK  latency=229ms  http=200  remote=185.162.231.25  finalURL=https://2x.nz/
+185.170.166.x  real=185.170.166.25  tcp=FAIL  latency=-  http=skip
+185.176.26.x  real=185.176.26.25  tcp=OK  latency=230ms  http=200  remote=185.176.26.25  finalURL=https://2x.nz/
+185.193.28.x  real=185.193.28.25  tcp=OK  latency=230ms  http=200  remote=185.193.28.25  finalURL=https://2x.nz/
+185.193.29.x  real=185.193.29.25  tcp=OK  latency=1227ms  http=200  remote=185.193.29.25  finalURL=https://2x.nz/
+185.193.30.x  real=185.193.30.25  tcp=OK  latency=228ms  http=200  remote=185.193.30.25  finalURL=https://2x.nz/
+185.193.31.x  real=185.193.31.25  tcp=OK  latency=1227ms  http=200  remote=185.193.31.25  finalURL=https://2x.nz/
+185.207.92.x  real=185.207.92.25  tcp=OK  latency=239ms  http=000  remote=  finalURL=https://2x.nz/
+185.209.154.x  real=185.209.154.25  tcp=FAIL  latency=-  http=skip
+185.238.228.x  real=185.238.228.25  tcp=OK  latency=1226ms  http=200  remote=185.238.228.25  finalURL=https://2x.nz/
+188.42.88.x  real=188.42.88.25  tcp=OK  latency=230ms  http=200  remote=188.42.88.25  finalURL=https://2x.nz/
+188.42.89.x  real=188.42.89.25  tcp=OK  latency=228ms  http=200  remote=188.42.89.25  finalURL=https://2x.nz/
+188.42.145.x  real=188.42.145.25  tcp=OK  latency=1205ms  http=200  remote=188.42.145.25  finalURL=https://2x.nz/
+188.164.248.x  real=188.164.248.25  tcp=OK  latency=232ms  http=200  remote=188.164.248.25  finalURL=https://2x.nz/
+188.244.122.x  real=188.244.122.25  tcp=OK  latency=231ms  http=200  remote=188.244.122.25  finalURL=https://2x.nz/
+192.65.217.x  real=192.65.217.25  tcp=OK  latency=232ms  http=200  remote=192.65.217.25  finalURL=https://2x.nz/
+192.133.11.x  real=192.133.11.25  tcp=OK  latency=226ms  http=403  remote=192.133.11.25  finalURL=https://2x.nz/
+192.152.138.x  real=192.152.138.25  tcp=FAIL  latency=-  http=skip
+192.236.26.x  real=192.236.26.25  tcp=OK  latency=229ms  http=000  remote=  finalURL=https://2x.nz/
+193.9.49.x  real=193.9.49.25  tcp=OK  latency=224ms  http=200  remote=193.9.49.25  finalURL=https://2x.nz/
+193.16.63.x  real=193.16.63.25  tcp=FAIL  latency=-  http=skip
+193.17.206.x  real=193.17.206.25  tcp=FAIL  latency=-  http=skip
+193.22.229.x  real=193.22.229.25  tcp=OK  latency=208ms  http=200  remote=193.22.229.25  finalURL=https://2x.nz/
+193.67.144.x  real=193.67.144.25  tcp=FAIL  latency=-  http=skip
+193.162.35.x  real=193.162.35.25  tcp=FAIL  latency=-  http=skip
+193.200.166.x  real=193.200.166.25  tcp=FAIL  latency=-  http=skip
+193.227.99.x  real=193.227.99.25  tcp=OK  latency=231ms  http=200  remote=193.227.99.25  finalURL=https://2x.nz/
+194.1.194.x  real=194.1.194.25  tcp=FAIL  latency=-  http=skip
+194.26.68.x  real=194.26.68.25  tcp=FAIL  latency=-  http=skip
+194.36.49.x  real=194.36.49.25  tcp=OK  latency=223ms  http=000  remote=  finalURL=https://2x.nz/
+194.36.55.x  real=194.36.55.25  tcp=OK  latency=231ms  http=200  remote=194.36.55.25  finalURL=https://2x.nz/
+194.36.216.x  real=194.36.216.25  tcp=FAIL  latency=-  http=skip
+194.36.217.x  real=194.36.217.25  tcp=FAIL  latency=-  http=skip
+194.36.218.x  real=194.36.218.25  tcp=FAIL  latency=-  http=skip
+194.36.219.x  real=194.36.219.25  tcp=FAIL  latency=-  http=skip
+194.39.112.x  real=194.39.112.25  tcp=OK  latency=231ms  http=403  remote=194.39.112.25  finalURL=https://2x.nz/
+194.39.113.x  real=194.39.113.25  tcp=OK  latency=223ms  http=000  remote=  finalURL=https://2x.nz/
+194.39.114.x  real=194.39.114.25  tcp=OK  latency=225ms  http=000  remote=  finalURL=https://2x.nz/
+194.39.115.x  real=194.39.115.25  tcp=OK  latency=223ms  http=000  remote=  finalURL=https://2x.nz/
+194.39.116.x  real=194.39.116.25  tcp=OK  latency=225ms  http=000  remote=  finalURL=https://2x.nz/
+194.39.117.x  real=194.39.117.25  tcp=OK  latency=225ms  http=000  remote=  finalURL=https://2x.nz/
+194.39.118.x  real=194.39.118.25  tcp=OK  latency=225ms  http=000  remote=  finalURL=https://2x.nz/
+194.39.119.x  real=194.39.119.25  tcp=OK  latency=228ms  http=000  remote=  finalURL=https://2x.nz/
+194.59.5.x  real=194.59.5.25  tcp=FAIL  latency=-  http=skip
+194.113.223.x  real=194.113.223.25  tcp=OK  latency=224ms  http=403  remote=194.113.223.25  finalURL=https://2x.nz/
+194.152.44.x  real=194.152.44.25  tcp=OK  latency=232ms  http=200  remote=194.152.44.25  finalURL=https://2x.nz/
+194.169.194.x  real=194.169.194.25  tcp=FAIL  latency=-  http=skip
+195.13.44.x  real=195.13.44.25  tcp=FAIL  latency=-  http=skip
+195.13.45.x  real=195.13.45.25  tcp=FAIL  latency=-  http=skip
+195.26.229.x  real=195.26.229.25  tcp=OK  latency=1226ms  http=200  remote=195.26.229.25  finalURL=https://2x.nz/
+195.28.190.x  real=195.28.190.25  tcp=FAIL  latency=-  http=skip
+195.28.191.x  real=195.28.191.25  tcp=FAIL  latency=-  http=skip
+195.85.23.x  real=195.85.23.25  tcp=OK  latency=233ms  http=200  remote=195.85.23.25  finalURL=https://2x.nz/
+195.85.59.x  real=195.85.59.25  tcp=OK  latency=1229ms  http=200  remote=195.85.59.25  finalURL=https://2x.nz/
+195.189.177.x  real=195.189.177.25  tcp=FAIL  latency=-  http=skip
+195.245.221.x  real=195.245.221.25  tcp=FAIL  latency=-  http=skip
+195.250.46.x  real=195.250.46.25  tcp=FAIL  latency=-  http=skip
+196.13.241.x  real=196.13.241.25  tcp=OK  latency=229ms  http=403  remote=196.13.241.25  finalURL=https://2x.nz/
+196.207.45.x  real=196.207.45.25  tcp=OK  latency=223ms  http=403  remote=196.207.45.25  finalURL=https://2x.nz/
+198.177.56.x  real=198.177.56.25  tcp=OK  latency=229ms  http=200  remote=198.177.56.25  finalURL=https://2x.nz/
+198.177.57.x  real=198.177.57.25  tcp=OK  latency=236ms  http=200  remote=198.177.57.25  finalURL=https://2x.nz/
+198.202.211.x  real=198.202.211.25  tcp=OK  latency=1238ms  http=200  remote=198.202.211.25  finalURL=https://2x.nz/
+199.5.242.x  real=199.5.242.25  tcp=OK  latency=231ms  http=000  remote=  finalURL=https://2x.nz/
+199.33.230.x  real=199.33.230.25  tcp=OK  latency=251ms  http=200  remote=199.33.230.25  finalURL=https://2x.nz/
+199.33.231.x  real=199.33.231.25  tcp=OK  latency=226ms  http=200  remote=199.33.231.25  finalURL=https://2x.nz/
+199.33.232.x  real=199.33.232.25  tcp=OK  latency=235ms  http=200  remote=199.33.232.25  finalURL=https://2x.nz/
+199.33.233.x  real=199.33.233.25  tcp=OK  latency=229ms  http=200  remote=199.33.233.25  finalURL=https://2x.nz/
+199.60.103.x  real=199.60.103.25  tcp=OK  latency=240ms  http=403  remote=199.60.103.25  finalURL=https://2x.nz/
+199.181.197.x  real=199.181.197.25  tcp=OK  latency=223ms  http=200  remote=199.181.197.25  finalURL=https://2x.nz/
+200.73.67.x  real=200.73.67.25  tcp=FAIL  latency=-  http=skip
+202.37.197.x  real=202.37.197.25  tcp=FAIL  latency=-  http=skip
+202.45.130.x  real=202.45.130.25  tcp=FAIL  latency=-  http=skip
+202.82.250.x  real=202.82.250.25  tcp=FAIL  latency=-  http=skip
+203.6.66.x  real=203.6.66.25  tcp=FAIL  latency=-  http=skip
+203.6.74.x  real=203.6.74.25  tcp=OK  latency=419ms  http=000  remote=  finalURL=https://2x.nz/
+203.13.32.x  real=203.13.32.25  tcp=OK  latency=230ms  http=403  remote=203.13.32.25  finalURL=https://2x.nz/
+203.17.126.x  real=203.17.126.25  tcp=OK  latency=237ms  http=403  remote=203.17.126.25  finalURL=https://2x.nz/
+203.19.222.x  real=203.19.222.25  tcp=FAIL  latency=-  http=skip
+203.22.223.x  real=203.22.223.25  tcp=OK  latency=223ms  http=403  remote=203.22.223.25  finalURL=https://2x.nz/
+203.22.241.x  real=203.22.241.25  tcp=OK  latency=1229ms  http=403  remote=203.22.241.25  finalURL=https://2x.nz/
+203.23.103.x  real=203.23.103.25  tcp=OK  latency=220ms  http=403  remote=203.23.103.25  finalURL=https://2x.nz/
+203.23.104.x  real=203.23.104.25  tcp=OK  latency=1241ms  http=403  remote=203.23.104.25  finalURL=https://2x.nz/
+203.23.106.x  real=203.23.106.25  tcp=OK  latency=240ms  http=403  remote=203.23.106.25  finalURL=https://2x.nz/
+203.24.102.x  real=203.24.102.25  tcp=OK  latency=232ms  http=403  remote=203.24.102.25  finalURL=https://2x.nz/
+203.24.103.x  real=203.24.103.25  tcp=OK  latency=234ms  http=403  remote=203.24.103.25  finalURL=https://2x.nz/
+203.24.108.x  real=203.24.108.25  tcp=OK  latency=1216ms  http=403  remote=203.24.108.25  finalURL=https://2x.nz/
+203.24.109.x  real=203.24.109.25  tcp=OK  latency=225ms  http=403  remote=203.24.109.25  finalURL=https://2x.nz/
+203.28.8.x  real=203.28.8.25  tcp=OK  latency=220ms  http=403  remote=203.28.8.25  finalURL=https://2x.nz/
+203.28.9.x  real=203.28.9.25  tcp=OK  latency=232ms  http=403  remote=203.28.9.25  finalURL=https://2x.nz/
+203.29.52.x  real=203.29.52.25  tcp=OK  latency=230ms  http=403  remote=203.29.52.25  finalURL=https://2x.nz/
+203.29.53.x  real=203.29.53.25  tcp=OK  latency=230ms  http=403  remote=203.29.53.25  finalURL=https://2x.nz/
+203.29.54.x  real=203.29.54.25  tcp=OK  latency=233ms  http=403  remote=203.29.54.25  finalURL=https://2x.nz/
+203.29.55.x  real=203.29.55.25  tcp=OK  latency=231ms  http=403  remote=203.29.55.25  finalURL=https://2x.nz/
+203.30.188.x  real=203.30.188.25  tcp=OK  latency=259ms  http=403  remote=203.30.188.25  finalURL=https://2x.nz/
+203.30.189.x  real=203.30.189.25  tcp=OK  latency=228ms  http=403  remote=203.30.189.25  finalURL=https://2x.nz/
+203.30.190.x  real=203.30.190.25  tcp=OK  latency=227ms  http=403  remote=203.30.190.25  finalURL=https://2x.nz/
+203.30.191.x  real=203.30.191.25  tcp=OK  latency=198ms  http=403  remote=203.30.191.25  finalURL=https://2x.nz/
+203.32.120.x  real=203.32.120.25  tcp=OK  latency=243ms  http=403  remote=203.32.120.25  finalURL=https://2x.nz/
+203.32.121.x  real=203.32.121.25  tcp=OK  latency=210ms  http=403  remote=203.32.121.25  finalURL=https://2x.nz/
+203.34.28.x  real=203.34.28.25  tcp=OK  latency=231ms  http=403  remote=203.34.28.25  finalURL=https://2x.nz/
+203.34.80.x  real=203.34.80.25  tcp=OK  latency=221ms  http=403  remote=203.34.80.25  finalURL=https://2x.nz/
+203.55.107.x  real=203.55.107.25  tcp=OK  latency=224ms  http=403  remote=203.55.107.25  finalURL=https://2x.nz/
+203.89.5.x  real=203.89.5.25  tcp=FAIL  latency=-  http=skip
+204.62.141.x  real=204.62.141.25  tcp=FAIL  latency=-  http=skip
+204.68.111.x  real=204.68.111.25  tcp=OK  latency=227ms  http=000  remote=204.68.111.25  finalURL=https://2x.nz/
+205.233.181.x  real=205.233.181.25  tcp=OK  latency=272ms  http=200  remote=205.233.181.25  finalURL=https://2x.nz/
+207.189.149.x  real=207.189.149.25  tcp=OK  latency=257ms  http=000  remote=  finalURL=https://2x.nz/
+208.42.188.x  real=208.42.188.25  tcp=FAIL  latency=-  http=skip
+208.77.33.x  real=208.77.33.25  tcp=FAIL  latency=-  http=skip
+208.77.35.x  real=208.77.35.25  tcp=FAIL  latency=-  http=skip
+208.100.60.x  real=208.100.60.25  tcp=FAIL  latency=-  http=skip
+209.46.30.x  real=209.46.30.25  tcp=OK  latency=231ms  http=200  remote=209.46.30.25  finalURL=https://2x.nz/
+209.222.114.x  real=209.222.114.25  tcp=FAIL  latency=-  http=skip
+209.222.115.x  real=209.222.115.25  tcp=FAIL  latency=-  http=skip
+212.22.76.x  real=212.22.76.25  tcp=FAIL  latency=-  http=skip
+212.239.86.x  real=212.239.86.25  tcp=FAIL  latency=-  http=skip
+213.182.199.x  real=213.182.199.25  tcp=FAIL  latency=-  http=skip
+213.182.210.x  real=213.182.210.25  tcp=FAIL  latency=-  http=skip
+213.241.198.x  real=213.241.198.25  tcp=OK  latency=223ms  http=200  remote=213.241.198.25  finalURL=https://2x.nz/
+216.120.131.x  real=216.120.131.25  tcp=OK  latency=227ms  http=000  remote=  finalURL=https://2x.nz/
+216.120.180.x  real=216.120.180.25  tcp=OK  latency=227ms  http=404  remote=216.120.180.25  finalURL=https://2x.nz/
+216.120.181.x  real=216.120.181.25  tcp=OK  latency=230ms  http=000  remote=  finalURL=https://2x.nz/
+216.154.208.x  real=216.154.208.25  tcp=FAIL  latency=-  http=skip
+216.154.209.x  real=216.154.209.25  tcp=FAIL  latency=-  http=skip
+216.154.210.x  real=216.154.210.25  tcp=FAIL  latency=-  http=skip
+216.154.211.x  real=216.154.211.25  tcp=FAIL  latency=-  http=skip
+216.154.212.x  real=216.154.212.25  tcp=FAIL  latency=-  http=skip
+216.154.213.x  real=216.154.213.25  tcp=FAIL  latency=-  http=skip
+216.154.214.x  real=216.154.214.25  tcp=FAIL  latency=-  http=skip
+216.154.215.x  real=216.154.215.25  tcp=FAIL  latency=-  http=skip
+216.154.216.x  real=216.154.216.25  tcp=FAIL  latency=-  http=skip
+216.154.217.x  real=216.154.217.25  tcp=FAIL  latency=-  http=skip
+216.154.218.x  real=216.154.218.25  tcp=FAIL  latency=-  http=skip
+216.154.219.x  real=216.154.219.25  tcp=OK  latency=307ms  http=200  remote=216.154.219.25  finalURL=https://2x.nz/
+216.154.220.x  real=216.154.220.25  tcp=OK  latency=335ms  http=200  remote=216.154.220.25  finalURL=https://2x.nz/
+216.154.221.x  real=216.154.221.25  tcp=OK  latency=311ms  http=200  remote=216.154.221.25  finalURL=https://2x.nz/
+216.154.222.x  real=216.154.222.25  tcp=FAIL  latency=-  http=skip
+216.154.223.x  real=216.154.223.25  tcp=FAIL  latency=-  http=skip
+216.198.53.x  real=216.198.53.25  tcp=OK  latency=232ms  http=403  remote=216.198.53.25  finalURL=https://2x.nz/
+216.198.54.x  real=216.198.54.25  tcp=OK  latency=248ms  http=403  remote=216.198.54.25  finalURL=https://2x.nz/
+216.205.52.x  real=216.205.52.25  tcp=OK  latency=251ms  http=200  remote=216.205.52.25  finalURL=https://2x.nz/
+223.27.176.x  real=223.27.176.25  tcp=FAIL  latency=-  http=skip
+223.27.177.x  real=223.27.177.25  tcp=FAIL  latency=-  http=skip
